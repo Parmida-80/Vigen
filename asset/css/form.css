@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400&family=Kaushan+Script&family=Outfit:wght@200&family=Reem+Kufi:wght@600&family=Roboto+Serif:ital,opsz,wght@1,8..144,200&family=Rubik:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#login-save p {
+  font-size: 50px;
+  text-align: center;
+  font-family: emoji;
+  text-shadow: 0px 1px 2px #818181;
+}
+
+#login-save #login {
+  background-color: #3b4b954d;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 4px 10px #7f7f7f;
+          box-shadow: 1px 4px 10px #7f7f7f;
+  margin: 50px auto;
+  z-index: 1;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
+#login-save #login input {
+  width: 222px;
+  display: block;
+  text-align: right;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 5px;
+  border: none;
+  -webkit-box-shadow: inset 0px 1px 4px black;
+          box-shadow: inset 0px 1px 4px black;
+  position: relative;
+}
+
+#login-save #login svg {
+  width: 25px;
+  position: absolute;
+  top: 121px;
+  right: 230px;
+  z-index: 1;
+}
+
+#login-save #login #password {
+  top: 284px;
+}
+
+#login-save #login #email {
+  top: 210px;
+}
+
+#login-save #login #name {
+  top: 135px;
+}
+
+#login-save #loginbuttom {
+  font-weight: bold;
+  display: block;
+  width: 124px;
+  height: 29px;
+  border-radius: 30px;
+  border: none;
+  background-color: #e8e8e8;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 68px;
+}
+
+#login-save #loginbuttom:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#bfa1fc), to(#9474fc));
+  background: linear-gradient(0deg, #bfa1fc, #9474fc);
+  -webkit-box-shadow: 0px 0px 180px 0px #9917FF;
+          box-shadow: 0px 0px 180px 0px #9917FF;
+}
+
+#login-save .imglogin {
+  display: none;
+  width: 780px;
+}
+
+#login-save #paragraflogin > p {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+@media (min-width: 700px) {
+  #login-save {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #login {
+    position: absolute;
+    right: 422px;
+    top: 130px;
+  }
+  .imglogin {
+    width: 780px;
+    position: relative;
+    right: 100px;
+  }
+}
+
+#Registerlogin {
+  text-align: right;
+  margin: 50px auto;
+  width: 500px;
+  background-color: black;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+#Registerlogin input {
+  width: 200px;
+  margin: 5px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+  height: 39px;
+  text-align: right;
+}
+
+#Registerlogin select {
+  width: 200px;
+  width: 200px;
+  margin: 5px;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+  height: 39px;
+}
+
+#Registerlogin textarea {
+  width: 419px;
+  height: 100px;
+  width: 419px;
+  height: 100px;
+  margin: 5px;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+}
+
+#Registerlogin button {
+  display: block;
+  margin: 10px auto;
+  height: 30px;
+  width: 290px;
+  height: 46px;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #00bfff;
+}
+
+#Registerlogin p {
+  margin: 10px auto;
+  font-size: 60px;
+  text-align: center;
+  font-family: auto;
+  color: #22c8ff;
+}
+/*# sourceMappingURL=form.css.map */

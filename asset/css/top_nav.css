@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header #search-form {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+}
+
+header #header {
+  background-color: #ab1212;
+}
+
+header #head {
+  padding: 20px;
+}
+
+header #head p {
+  font-size: 24px;
+  font-family: fantasy;
+  color: #fffafaba;
+}
+
+header #head #svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header #head #svg .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header #head #svg svg {
+  width: 30px;
+}
+
+header #head hr {
+  color: white;
+}
+
+header ul {
+  font-size: 14px;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header ul a,
+header ul li {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+header #menu {
+  width: 50px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+header #menu2 {
+  position: absolute;
+  z-index: 3;
+  background-color: #ab1212;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 600px;
+  display: block;
+  visibility: hidden;
+  padding: 30px;
+}
+
+header #menu2 svg {
+  width: 30px;
+  margin-top: -50px;
+  margin-right: 130px;
+}
+/*# sourceMappingURL=top_nav.css.map */

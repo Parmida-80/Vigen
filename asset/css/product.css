@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: auto;
+}
+
+.procuctimg-head img {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.procuct {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.procuct button {
+  padding: 10px;
+  border: 5px double #7e0101;
+  background-color: #ff5959;
+  margin: 10px;
+}
+
+.procuct button a {
+  color: white;
+  font-weight: bold;
+  font-family: serif;
+  text-decoration: none;
+}
+
+.productimg-foot a {
+  width: 121px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#size {
+  font-weight: 500;
+  padding: 15px;
+  text-align: center;
+}
+
+#size label {
+  padding: 20px;
+}
+
+.procuct-pragraf {
+  padding: 20px;
+}
+
+.procuct-pragraf h2 {
+  margin: 0 auto;
+  font-family: fangsong;
+  background-color: #f3f3f3;
+  width: 411px;
+  text-align: center;
+  padding: 25px;
+}
+
+#price {
+  font-size: 20px;
+  font-family: math;
+  padding-left: 20px;
+}
+
+#price p {
+  padding-left: 20px;
+}
+
+#tozihat {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  width: 300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#tozih {
+  padding: 35px;
+  text-align: right;
+}
+
+h4 {
+  text-align: center;
+  font-family: initial;
+}
+
+del {
+  font-size: 14PX;
+  color: #5c5c5cee;
+}
+
+.number {
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px ridge #9a9a9a;
+  border-radius: 3px;
+  height: 35px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.number svg {
+  width: 20px;
+}
+
+@media (min-width: 700px) {
+  #tozihat p {
+    width: 600px;
+  }
+}
+/*# sourceMappingURL=product.css.map */
